@@ -1,0 +1,43 @@
+name: tomato_disease_app
+description: Tomato Disease Detection App for Farmers
+publish_to: 'none'
+version: 1.0.0+1
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # TFLite model inference
+  tflite_flutter: ^0.11.0    # ✅ updated from 0.10.4
+
+  # Camera and image picker
+  image_picker: ^1.0.7
+
+  # Image processing
+  image: ^4.1.7
+
+  # Local storage for login/register
+  shared_preferences: ^2.2.2
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/tomato_disease_model.tflite
+    - assets/class_names.json

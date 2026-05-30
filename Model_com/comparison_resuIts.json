@@ -1,0 +1,32 @@
+[
+  {
+    "Model": "Custom_CNN_v2",
+    "Accuracy (%)": 84.77,
+    "Precision (%)": 88.97,
+    "F1-Score (%)": 82.00,
+    "Val Loss": 0.9870,
+    "AUC-ROC": 0.9155,
+    "Train Time (s)": 120.6,
+    "Model Size (MB)": 16.79
+  },
+  {
+    "Model": "VGG16",
+    "Accuracy (%)": 91.20,
+    "Precision (%)": 92.00,
+    "F1-Score (%)": 91.00,
+    "Val Loss": 0.62,
+    "AUC-ROC": 0.9781,
+    "Train Time (s)": 181.8,
+    "Model Size (MB)": 117.2
+  },
+  {
+    "Model": "MobileNetV2",
+    "Accuracy (%)": 81.11,
+    "Precision (%)": 84.22,
+    "F1-Score (%)": 80.33,
+    "Val Loss": 1.0049,
+    "AUC-ROC": 0.9865,
+    "Train Time (s)": 39.3,
+    "Model Size (MB)": 17.3
+  }
+]
